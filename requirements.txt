@@ -46,7 +46,6 @@ libarchive-c==2.9
 llvmlite==0.34.0
 locket==0.2.0
 mccabe==0.6.1
-menuinst==1.4.16
 mkl-fft==1.0.14
 mkl-random==1.0.4
 mkl-service==2.3.0
