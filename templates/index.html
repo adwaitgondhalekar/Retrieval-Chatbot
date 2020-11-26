@@ -1,0 +1,168 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+<title>ChatterBot UI</title>
+<link rel="shortcut icon" href="#">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<script type="text/javascript">
+  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+
+
+</script>
+
+<script type="text/javascript" src="{{url_for('static', filename='jquery/jquery-3.5.1.min.js') }}"></script>
+
+<script type="text/javascript">
+	function UploadResult()
+     {
+		var elementValue = $("#user_msg").val();
+	$.ajax({
+     type: "POST",
+     url: "/predict",
+     data: {'input':elementValue},
+     success: function(data)
+     {
+     	var response=data['result'];
+
+       	//alert(elementValue);
+        //alert( "Data Saved: " + response );
+         
+
+       var s= document.getElementById('user_msg').value;
+
+
+ 		
+
+       if(s)
+       {
+       if (!document.getElementById) return;
+
+       
+       var user_res_p = document.createElement('span');
+       var br = document.createElement('br');
+       user_res_p.id = "user_para";
+       user_res_p.className = "rightmsg";
+
+       var user_text = document.createTextNode(s);
+
+       user_res_p.appendChild(user_text);
+
+       document.getElementById("box").appendChild(user_res_p);
+       document.getElementById("box").appendChild(br)
+      
+
+       //user_res_p.style["width"]= "max-content";
+       user_res_p.style["overflow-y"]= "hidden";
+       user_res_p.style["overflow-wrap"]= "break-word";
+       user_res_p.style["margin-left"]= "auto";
+       user_res_p.style["margin-right"]="8px";
+       user_res_p.style["float"]="right";
+       user_res_p.style["clear"]="left";
+       user_res_p.style["margin-top"]="15px";
+       user_res_p.style["background-color"]="#dcf8c6";
+       user_res_p.style["padding"]="10px";
+       user_res_p.style["border-radius"]="50px 15px 50px 15px";
+       user_res_p.style["font-size"]="18px";
+
+
+
+
+	
+
+
+
+
+       var bot_res_p = document.createElement('span');
+       bot_res_p.id = "bot_para";
+       bot_res_p.className = "leftmsg";
+
+       var res_text = document.createTextNode(response);
+
+       bot_res_p.appendChild(res_text);
+
+       document.getElementById("box").appendChild(bot_res_p);
+       document.getElementById("box").appendChild(br)
+
+
+
+
+       //bot_res_p.style["width"]= "max-content";
+       bot_res_p.style["overflow-y"]= "hidden";
+       bot_res_p.style["overflow-wrap"]= "break-word";
+       bot_res_p.style["margin-right"]= "auto";
+       bot_res_p.style["margin-left"]="8px";
+       bot_res_p.style["float"]="left";
+       bot_res_p.style["clear"]="right";
+       bot_res_p.style["margin-top"]="15px";
+       bot_res_p.style["background-color"]="#ece5dd";
+       bot_res_p.style["padding"]="10px";
+       bot_res_p.style["border-radius"]="15px 50px 15px 50px";
+       bot_res_p.style["font-size"]="18px";
+
+
+
+       
+      // var sentence=document.changeform.sentence.value;
+       //var node=document.createTextNode(s);
+       //document.getElementById("usermsg").appendChild(node);
+       //document.changeform.sentence.value="";
+       document.getElementById("user_msg").value=""
+       var chatboxdiv=document.getElementById('box');
+       chatboxdiv.scrollTop=chatboxdiv.scrollHeight;
+   }
+   else
+   {
+   	alert("Please Give a Message!")
+   }
+
+   }
+
+
+});
+}
+	
+	</script>
+
+
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="chat">
+			<div class="chat-header">
+				<div class="profile">
+					<div class="left">
+						<img src="static/images/arrow.png" class="arrow">
+						<img src="static/images/robot.png" class="pp">
+						<h2>ChatterBot</h2>
+						<span>Online</span>
+					</div>
+					<div class="right">
+						<img src="static/images/video.png" class="icon">
+						<img src="static/images/phone.png" class="icon">
+						<img src="static/images/more.png" class="icon">
+
+						</div>
+
+				</div>
+			</div>
+			<div class="chat-box" id="box">
+				<div class="leftmsg"></div>
+			<div class="rightmsg"></div>
+		</div>
+			     <span class="chat-footer">
+			     		<textarea placeholder="Type a message" name="input" id="user_msg"></textarea>
+			     		<img src="static/images/send.png" onclick="UploadResult();" class="sendbutton" id="sendmsg"/>
+			     
+				</span>
+
+				
+		</div>
+	</div>
+</body>
+</html>
+
+				
