@@ -70,7 +70,6 @@ pycosat==0.6.3
 pycrypto==2.6.1
 pycurl==7.43.0.6
 pyflakes==2.2.0
-pyodbc===4.0.0-unsupported
 pyparsing==2.4.7
 pyreadline==2.1
 pytest==0.0.0
