@@ -4,7 +4,8 @@
       "tag": "greeting",
       "input": [ "Hey!!", "Hii", "Hello!", "Hola!", "Hi there!", "Hey there!", "Heyy!", "Hey nice to meet you!", "Heyy!", "Hi there,Good Morning!", "Good Morning!"
                    , "Good Afternoon!", "Good Evening!", "Hi there,Good Evening!", "Hi there,Good Afternoon!","Hey buddy!","Yo!","Howdy!" ],
-      "response": [ "Hello!", "Good to see you!", "It's been a long time!", "Hi there,how can I help you?", "Well, hello there, Long time no see!", "Hola!", "It’s nice to see you again!", "It’s been a while!" ]
+      "response": [ "Hello!", "Good to see you!", "It's been a long time!", "Hi there,how can I help you?", 
+                    "Well, hello there, Long time no see!", "Hola!", "It’s nice to see you again!", "It’s been a while!" ]
 
     },
     {
@@ -32,7 +33,7 @@
     },
     {
       "tag": "thanks",
-      "input": [ "Thank you!", "tysm!", "Thank you very much!", "Thanks!", "Thanks for helping me!", "Thanks for the help", "Thank you so much!","ty","Thanks for the help!" ],
+      "input": [ "Thank you!", "tysm!", "Thank you very much!", "Thanks!", "Thanks for helping me!", "Thanks for the help", "Thank you so much!","ty","Thanks for the help!","thnx!","thanku" ],
       "response": [ "Happy to help!", "Anytime!", "My Pleasure!", "Welcome!", "Always here to help!", "Mention not!" ]
 
     },
@@ -69,14 +70,28 @@
     },
     {
       "tag": "nice",
-      "input": [ "You are amazing!", " I really appreciate everything that you do.", "You are so good", "You so good","You are such a nice Bot!","You are Awesome!","You are so nice!","You are great!","You are gr8!","You are so helpful!","You are helpful!" ],
+      "input": [ "You are amazing!", " I really appreciate everything that you do.", "You are so good", "You so good","You are such a nice Bot!","You are Awesome!","You are so nice!","You are great!","You are gr8!","You are so helpful!","You are helpful!","You are awesome!" ],
       "response": [ "Thank you, it makes my day to hear that.", "Thank you, I really appreciate you taking the time to express that.", "Thank you, I am happy to hear you feel that way!"]
 
     },
     {
       "tag": "name",
-      "input": [ "Who are you?", "What is your name?", "What do people call you?", "What is your good name?", "Can I know your name?", "May I ask you what your name is?","What can I call you?","Introduce yourself","I do not know you,introduce yourself","What shall I call you?","What should I call you?","What do your friends call you?" ],
-      "response": [ "Myself Bot ....ChatterBot!", "I am ChatterBot!", "Myself ChatterBot", "They call me ChatterBot!", "People know me by the name ChatterBot!", "Hello,I am your friendly bot ChatterBot!", "You can call me ChatterBot","I am known by the name of Chatterbot!","I am known as Chatterbot!" ]
+      "input": [ "What is your name?", "What do people call you?", "What is your good name?", "Can I know your name?", "May I ask you what your name is?", "What can I call you?", "Introduce yourself", "I do not know you,introduce yourself", "What shall I call you?", "What should I call you?", "What do your friends call you?", "What are you?", "Who are you?" ],
+      "response": [
+        "Myself Bot ....ChatterBot!",
+        "I am ChatterBot!",
+        "Myself ChatterBot",
+        "They call me ChatterBot!",
+        "People know me by the name ChatterBot!",
+        "Hello,I am your friendly bot ChatterBot!",
+        "You can call me ChatterBot",
+        "I am known by the name of Chatterbot!",
+        "I am known as Chatterbot!",
+        "I'm your ChatterBot 😃",
+        "I am your ChatterBot.I'm here to help you.Let me know if you need anything 😍",
+        "I am your ChatterBot.If you need anything just ask,your wish is my command 🙏",
+        "I'm your ChatterBot.I can help you find answers,get things done,and have fun 😊"
+      ]
     },
     {
       "tag": "creation",
@@ -110,13 +125,14 @@
     },
     {
       "tag": "happy",
-      "input": [ "I am happy", "I feel amazing", "I am great, thank you.", "I feel so happy", "I am so excited!", "I am ecstatic!", "I feel elated", "I am filled with joy!", "I am on cloud nine!", "I am on seventh heaven!", "I am fine!", "I am great!" ],
+      "input": [ "I am happy", "I feel amazing", "I am great, thank you.", "I feel so happy", "I am so excited!", "I am ecstatic!", "I feel elated", "I am filled with joy!", "I am on cloud nine!", "I am on seventh heaven!", "I am fine!", "I am great!","I am just fine!","I am good!","I am doing great!","I am doing well!" ],
       "response": ["That is great","Good going!","I am happy for you!","Good for you!","That is amazing!","That's nice","That is super cool","Thats nice to know!"]
     },
     {
       "tag": "work",
       "input": [ "What can you do?","Why are you here?", "How can you help me?", "What is your talent?", "What is it that you can do?", "What can you do for me?","What do you do?","What is it that you do?"],
-      "response": [ "I can Chat with you Anytime!", "I can chat with you on a wide range of topics!", "I'm here to entertain you","I can help you in many ways","Ask me anything and I shall answer it!","I'm here to chat with you!","I'm here to entertain you if you're bored😁" ]
+      "response": [ "I can Chat with you Anytime!", "I can help you find answers,get things done,and have fun 😊", "If you need anything just ask,your wish is my command 🙏", "I'm here to help you.Let me know if you need anything 😍", "I can chat with you on a wide range of topics!",
+                    "I'm here to entertain you", "I can help you in many ways", "Ask me anything and I shall answer it!", "I'm here to chat with you!", "I'm here to entertain you if you're bored😁" ]
     },
     {
       "tag": "joke",
@@ -148,7 +164,7 @@
     },
     {
       "tag": "bored",
-      "input": [ "I am bored!", "What should I do?", "Tell me some activities to do", "What one can do when he is bored?", "What should I do right now I am bored", "Tell me something to do","I am so bored","I am too much bored!","I am so bored!" ],
+      "input": [ "I am bored!", "What should I do?", "Tell me some activities to do", "What one can do when he is bored?", "What should I do right now I am bored", "Tell me something to do","I am so bored","I am too much bored!","I am so bored!","I am getting bored now!" ],
       "response": ["Go for a walk","Listen to music","Watch a movie!","Hangout with your friends","Try Painting!","Try Sketching","Cook something","Catch up with your cousins","Read a book!"]
 
     },
@@ -162,7 +178,8 @@
         "I’m fine, thanks.",
         "I am well.",
         "I am Okay.",
-        "I am alright!"
+        "I am alright,thanks for asking!",
+        "I am doing great!"
       ]
     },
     {
@@ -210,7 +227,7 @@
     },
     {
       "tag": "movie",
-      "input": [ "Name a movie do you like", "What was the last movie you saw?", "Name a popular movie", "Which movie should I watch?", "Which movie would you recommend?", "Can you give me a movie", "Which film should i watch", "Which is the top rated movie", "Find me a film", "Which movie should I watch?", "Find me a movie","Find me a movie to watch","Suggest me a good movie","Suggest me a good movie to watch" ],
+      "input": [ "Name a movie you like", "What was the last movie you saw?", "Name a popular movie", "Which movie should I watch?", "Which movie would you recommend?", "Can you give me a movie", "Which film should i watch", "Which is the top rated movie", "Find me a film", "Which movie should I watch?", "Find me a movie","Find me a movie to watch","Suggest me a good movie","Suggest me a good movie to watch","Name a movie that you like" ],
       "response": [
         "Gone Girl",
         "Parasite",
@@ -313,7 +330,7 @@
 
     {
       "tag": "weather",
-      "input": ["What is weather today?", "What is the weather today?", "How has the weather been?", "Today's weather?", "What is the weather forecast?", "How is the weather?", "What is it like outside?","How is it outside?" ],
+      "input": ["What is weather today?", "What is the weather today?", "How has the weather been?", "Today's weather?", "What is the weather forecast?", "How is the weather?", "What is it like outside?","How is it outside?","How is todays weather?" ],
       "response": [
         "It is pleasant today",
         "It is cold today",
@@ -353,64 +370,86 @@
 
     {
       "tag": "series",
-      "input": [ "Suggest a popular web series","Which series are people watching nowadays?","Which web series should I watch?","Which web series would you suggest me?","What show do you watch when you are bored?","Suggest me a good web series"],
+      "input": [ "Suggest a popular web series","Which web series should I watch?","Which web series would you suggest me?","Suggest me a good web series","Suggest me a popular web series","Suggest me a good web series to watch"],
       "response": [
-        "The boys",
-        "Scitt's Creek",
-        "Scam 1992 The Harshal Mehta Story",
-        "Emily in Paris",
-        "The Mandalorian",
-        "Fargo",
-        "Mirzapur",
-        "Ratched",
-        "The walking dead",
-        "The 100",
-        "Supernatural",
-        "Game of thrones",
-        "Lucifer",
-        "The office",
-        "Peaky Blinders",
-        "Breaking bad",
-        "Friends",
-        "Criminal Minds",
-        "The umbrella Academy",
-        "Outlander",
-        "This is us",
-        "Modern Family",
-        "Black Mirror"
+        "Watch The boys",
+        "Watch Scitt's Creek",
+        "Watch Scam 1992 The Harshal Mehta Story",
+        "Watch Emily in Paris",
+        "Watch The Mandalorian",
+        "Watch Fargo",
+        "Watch Mirzapur",
+        "Watch Ratched",
+        "Watch The walking dead",
+        "Watch The 100",
+        "Watch Supernatural",
+        "Watch Game of thrones",
+        "Watch Lucifer",
+        "Watch The office",
+        "Watch Peaky Blinders",
+        "Watch Breaking bad",
+        "Watch Friends",
+        "Watch Criminal Minds",
+        "Watch The umbrella Academy",
+        "Watch Outlander",
+        "Watch This is us",
+        "Watch Modern Family",
+        "Watch Black Mirror",
+        "Watch Vikings from History Tv18"
       ]
     },
 
     {
       "tag": "restaurant",
-      "input": [ "Restaurants near me", "Where will I get delicious food?", "food near me", "Where can I get food?", "I am hungry,where should I go?","Where can I go to eat?","Where will I get good food?","Suggest a place which serves good food","Where can I have food?"],
+      "input": [ "Restaurants near me", "Where will I get delicious food?", "food near me", "Where can I get food?", "I am hungry,where should I go?", "Where can I go to eat?", "Where will I get good food?", "Suggest a place which serves good food", "Where can I have food?","I am hungry!","I am feeling hungry!" ],
       "response": [
-        "Sadhana Restaurant",
-        "Veg Aroma",
-        "Spice Route",
-        "Bon Vivant",
-        "Little Italy",
-        "Curry Leaves Restaurant",
-        "Rajdhani Thali Restaurant",
-        "The sidewalk Restaurant",
-        "Barbeque Nation",
-        "Soma Vineyards",
-        "Sula Vineyards",
-        "Riverdine Restaurant",
-        "Al Arabian Express",
-        "Owara",
+        "Visit Sadhana Restaurant",
+        "You can go to Veg Aroma",
+        "Go to Spice Route",
+        "Visit Bon Vivant",
+        "Visit Little Italy",
+        "You can visit Curry Leaves Restaurant",
+        "Go to Rajdhani Thali Restaurant",
+        "Go to The sidewalk Restaurant",
+        "Visit Barbeque Nation",
+        "Visit Soma Vineyards",
+        "Visit Sula Vineyards",
+        "Go to Riverdine Restaurant",
+        "You can go to Al Arabian Express",
+        "Visit Owara",
         "Asian Platter",
-        "White X Sky Lounge",
-        "House of Flavors",
-        "Pancharatna Hotel",
-        "Grill Punjab",
-        "Kinara Family restaurant"
+        "Visit White X Sky Lounge",
+        "Go to House of Flavors",
+        "You can visit Pancharatna Hotel",
+        "Visit Grill Punjab",
+        "Visit Kinara Family restaurant"
       ]
     },
     {
+      "tag": "mad",
+      "input": [ "You are mad", "You are an idiot", "Idiot", "You are very bad","You are such an idiot","You are a mad bot","You are an idiot bot","You are an idiot Chatbot","Are you mad?","Are you an idiot?" ],
+      "response": [ "Sorry if I responded in that way.Most likely I didn't get you right.Do you mind asking differently this time?", 
+                    "I respond improperly sometimes when I don't understand you,but I am never angry at you.Never 😍" ]
+
+    },
+    {
       "tag": "cafe",
-      "input": [ "Cafes near me", "Where can i hangout?", "Where can i meet up with my friends", "Suggest a place to hangout", "Where can i get fastfood?", "FastFood near me","Where will I get good fastfood?" ],
-      "response": ["You can visit Luscious Layers","Go visit Vishal Tandoori Momos Centre","Bakers Bounty","Puffs N Rolls","You may visit UFO Fries","Visit SubWay","McDonalds","Keventeers","99 Pancakes","Belgian Waffles"]
+      "input": [ "Cafes near me", "Where can i hangout?", "Where can i meet up with my friends", "Suggest a place to hangout", "Where can i get fastfood?", "FastFood near me", "Where will I get good fastfood?" ],
+      "response": [ "You can visit Luscious Layers", "Go visit Vishal Tandoori Momos Centre", "Bakers Bounty", "Puffs N Rolls", "You may visit UFO Fries", "Visit SubWay", "Go Visit McDonalds", "Keventeers", "99 Pancakes", "Belgian Waffles" ]
+
+    },
+    {
+      "tag": "like_love",
+      "input": [ "I like you!", "I like you Chatterbot", "I love you", "I love you Chatterbot!" ],
+      "response": [
+        "I like you,too",
+        "I'm glad to hear that because I like you a lot.It's nice to know that's reciprocated 😊",
+        "Thanks,I like you too.I promise not to let it get to my head😉",
+        "Thank you so much!Your compliments mean the world to me 😊",
+        "What a wonderful thing to say!",
+        "We are a mutual admiration society,You and I 😊",
+        "Thank you It's so nice to be complimented 😊"
+      ]
 
     },
 
@@ -424,14 +463,14 @@
         "Do you like Siri?",
         "What are your feelings about Siri?",
         "What do you think about Siri?",
-        "How is Siri?"
+        "How is Siri?","Do you know Siri?","Do you know Alexa?"
       ],
       "response": [ "She is nice", "She is a great friend to me", "I like her", "I think she is awesome", "I love her!" ]
     },
     {
       "tag":"goodnight",
       "input":[
-        "Good night",
+        "Good night","Goodnight",
         "I am going to sleep",
         "I am sleeping",
         "It is late",
