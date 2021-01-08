@@ -22,8 +22,8 @@
 
 <table>
   <tr>
-    <th>Screenshot1</th>
-    <th>Screenshot2</th>
+    <th>Screenshot 1</th>
+    <th>Screenshot 2</th>
   </tr>
   
   <tr>
