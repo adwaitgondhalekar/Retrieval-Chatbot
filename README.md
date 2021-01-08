@@ -2,7 +2,7 @@
 
 <BR><BR><BR>
 
-- ChatterBot is a Casual Conversational Chatbot which is developed using the Retrieval Based Approach of making Chatbots.Here what we have implemented is a Chatbot which will mimic
+- ChatterBot is a Casual Conversational Chatbot which is developed following the Retrieval Based Approach of making Chatbots & Natural Language Processing.Here what we have implemented is a Chatbot which will mimic
   human like casual conversation.
 
 - For this we have used our own intents.json file which contains various intents/situations/scenarios.
@@ -20,7 +20,19 @@
 
 ## 📸 Screenshots
 
-
+<table>
+  <tr>
+    <th>Screenshot1</th>
+    <th>Screenshot2</th>
+  </tr>
+  
+  <tr>
+    <td><img src="https://github.com/adwaitgondhalekar/Retrieval-Chatbot/blob/master/Screenshots/Screenshot1.png"></td>
+    <td><img src="https://github.com/adwaitgondhalekar/Retrieval-Chatbot/blob/master/Screenshots/Screenshot2.png"></td>
+  </tr>
+  
+  
+</table>
 
 
 <BR>
